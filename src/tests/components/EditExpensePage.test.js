@@ -12,7 +12,7 @@ beforeEach( () => {
    wrapper = shallow(
        <EditExpensePage 
         expense = {expenses[0]} 
-        editExpense = {editExpenseSpy} 
+        startEditExpense = {editExpenseSpy} 
         startRemoveExpense = { startRemoveExpenseSpy } 
         history = { historySpy } />
     );
